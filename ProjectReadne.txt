@@ -4,3 +4,40 @@ Will be using Java webservice to make this Project
 
 For UI will use Swagger so I don't have to worry about creating HTML page or JS as
 I will be taking care of most stuff in java side.
+
+I used intellij as an IDE and maven as build tool. Also included few screen shot and screen recording of project
+
+HOW TO RUN
+If you import the application in any java ide and run the Main file navigate to
+following url in the browser
+
+localhost:8080/swagger-ui.html#!
+
+Click on Main Controller
+
+in the input box enter the value and click try it out button
+
+Response body section should have the response (result or error)
+
+
+TESTING
+I have tested Controller as just happy path test by mocking the webservice
+
+And tested service with multiple test cases -
+Null value
+Empty value
+Simple number
+Long number
+number with decimal
+Negative Numbers
+Simple string
+String with special characters
+String number mixed etc
+
+
+
+
+JENKINS
+We can hook this project to CI/CD pipeline like Jenkins by defining our jenkins file
+we can define the repository to pull project from and set to build project and run our unit test on each commit or whatever is desired.
+and even deploy it to EC2 or something similar

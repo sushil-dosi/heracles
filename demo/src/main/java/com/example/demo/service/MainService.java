@@ -23,7 +23,6 @@ public class MainService {
             String numberStr = number.toString();
 
             String[] negativeSplitStr = numberStr.split("-");  //check for negative number
-            boolean inputNumberSign =  false;
 
             //if negativeSplitStr size greater than 1 then we have negative sign
             int splitPosition  = negativeSplitStr.length > 1 ? 1 : 0;
