@@ -1,0 +1,6 @@
+ProjectReadme
+
+Will be using Java webservice to make this Project
+
+For UI will use Swagger so I don't have to worry about creating HTML page or JS as
+I will be taking care of most stuff in java side.
